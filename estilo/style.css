@@ -50,3 +50,7 @@ div#form > h1 {
     font-weight: bolder;
     margin-bottom: 10px;
 }
+
+div#form > p {
+    font-size: 0.8em
+}

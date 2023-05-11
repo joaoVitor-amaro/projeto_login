@@ -7,9 +7,8 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media.css">
-    <style>
-        
-    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main>
@@ -21,13 +20,13 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <div>
-                        <label for="iemail">E-mail</label>
-                        <input type="email" name="email" id="iemail" autocomplete="email">
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail" autocomplete="email" required> 
                     </div>
-                    <div>
-                        <label for="ipwd">Senha</label>
-                        <input type="password" name="pwd" id="ipwd">
+                    <div class="campo1">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="pwd" id="ipwd" required>
                     </div>
                 </form>
             </div>
